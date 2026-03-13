@@ -14,7 +14,7 @@ header{
     align-items:center;
     padding:20px 60px;
     backdrop-filter:blur(6px);
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,1);
     box-sizing: border-box;
 }
 
@@ -48,18 +48,19 @@ nav a:hover{
 }
 
 .Altitude{
-height:100vh;
-padding-bottom: 120px;
-background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("Grand_Pic_de_la_Meije.jpg");
-background-size:cover;
-background-position:center;
-background-attachment: fixed;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-color:white;
-text-align:center;
+    height:100vh;
+    padding-bottom: 120px;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("Grand_Pic_de_la_Meije.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+    margin-top: 120px;
 }
 
 .Altitude h1{
@@ -198,6 +199,7 @@ footer{
     margin:auto;
     padding:40px;
     padding-top: 150px;
+    margin-top: 120px;
 }
 
 #main2 h1{
@@ -266,6 +268,7 @@ footer{
     align-items:center;
     color:white;
     text-align:center;
+    margin-top: 120px;
 }
 
 #main3 h1{
@@ -333,6 +336,7 @@ h2{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin-top: 120px;
     color:white;
     max-width:1200px;
     margin:auto;
@@ -358,6 +362,7 @@ h2{
     color:white;
     padding:150px 60px 80px 60px;
     text-align:center;
+    margin-top: 120px;
 }
 
 #main5 h1{
@@ -417,12 +422,18 @@ h2{
 
     header{
         flex-direction:column;
-        gap:10px;
+        padding: 15px;
     }
 
     nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
+        flex-direction:column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    header img{
+        height: 70px;
+        width: auto;
     }
 
     .Altitude h1{
@@ -451,6 +462,14 @@ h2{
         column-count:2;
     }
 
+    .bloc{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image img{
+        width: 100%;
+    }
 }
 
 @media (max-width:500px){
