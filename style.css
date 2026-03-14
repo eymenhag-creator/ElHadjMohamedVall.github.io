@@ -264,7 +264,6 @@ footer{
     background-attachment: fixed;
     display:flex;
     flex-direction:column;
-    justify-content:center;
     align-items:center;
     color:white;
     text-align:center;
